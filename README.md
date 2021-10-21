@@ -10,6 +10,18 @@ dockerコンテナ内部でカメラを使用する
 /etc/udev/rules.d/99-camera.rulesに下記を書き込む<br>
 SUBSYSTEM=="vchiq",MODE="0666"
 
+### 起動方法
+
+```
+git clone https://github.com/kmchord9/raspi_camera.git
+cd raspi_camera
+
+#コンテナ起動
+docker-compose up -d
+#コンテナにログイン
+docker exec -it camera /bin/bash
+```
+
 ### 使用したdockerイメージについて
 dockerイメージは公式のraspiOS（2021-05-07-raspios-buster-armhf-lite.zip）から<br>
 作成したものを使用している。<br>
