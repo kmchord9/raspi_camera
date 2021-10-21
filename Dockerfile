@@ -22,6 +22,6 @@ RUN pip3 install \
     opencv-python \
     picamera
 
-ENV READTHEDOCS=True
+ENV DISPLAY :0.0
 
 CMD ["bin/bash"]
