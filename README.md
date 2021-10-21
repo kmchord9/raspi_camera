@@ -32,7 +32,7 @@ dockerイメージは公式のraspiOS（2021-05-07-raspios-buster-armhf-lite.zip
 
 作成したイメージは下記で得られる<br>
 ```
-docker pull kmchord9/raspios-buster-armhf-lite:latest
+docker pull kmchord9/raspios-buster-armhf-lite:2021-05-07
 ```
 ### 参考
 [DockerとOpenCV内のRaspberryPiカメラにアクセスする方法](https://ichi.pro/docker-to-opencvnai-no-raspberrypi-kamera-ni-akusesusuru-hoho-105150967000465 "タイトル")<br>
