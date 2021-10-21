@@ -1,0 +1,16 @@
+version: "3.7"
+services:
+  camera:
+     container_name: camera 
+     image: kmchord9/raspios-buster-armhf-lite:211021-opencv
+     network_mode: host
+     restart: always
+     volumes:
+        - /opt/vc:/opt/vc
+        - ./python:/app
+     environment:
+        LD_LIBRARY_PATH: /opt/vc/lib
+     devices:
+        - "/dev/vchiq:/dev/vchiq"
+     tty: true
+     privileged: true
