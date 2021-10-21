@@ -14,6 +14,9 @@ sudo echo SUBSYSTEM=="vchiq",MODE="0666" >> /etc/udev/rules.d/99-camera.rules
 xhost +local:
 ```
 
+#### ライブカメラ
+index.htmlのipアドレスをローカルのIPに変更する
+
 ### 起動方法
 
 ```
@@ -32,13 +35,15 @@ dockerイメージは公式のraspiOS（2021-05-07-raspios-buster-armhf-lite.zip
 
 作成したイメージは下記で得られる<br>
 ```
-docker pull kmchord9/raspios-buster-armhf-lite:20211021opencv-2
+docker pull kmchord9/raspios-buster-armhf-lite:2021-05-07
 ```
 ### 参考
 [DockerとOpenCV内のRaspberryPiカメラにアクセスする方法](https://ichi.pro/docker-to-opencvnai-no-raspberrypi-kamera-ni-akusesusuru-hoho-105150967000465 "タイトル")<br>
 [ARM環境のRaspbianイメージをx86上のDockerで動かす](https://qiita.com/hishi/items/61652e2d9755e17630de "タイトル")<br>
 [How to Let Non-Root Users Access the Raspberry Pi Camera](https://www.losant.com/blog/how-to-access-the-raspberry-pi-camera-in-docker "タイトル")<br>
 [ArchlinuxARM Need to Use sudo to Access Camera](https://forums.raspberrypi.com/viewtopic.php?t=247867 "タイトル")<br>
+[Raspberry pi 3で暗視カメラシステムの構築 その2](https://doinaka-it-zakki.hatenablog.com/entry/2018/11/29/224940 "タイトル")<br>
+
 
 
 
