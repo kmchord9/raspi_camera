@@ -6,4 +6,4 @@ camera.resolution = (1024, 768)
 camera.start_preview()
 
 sleep(2)
-camera.capture('foo.jpeg')
+camera.capture('photo/foo.jpeg')

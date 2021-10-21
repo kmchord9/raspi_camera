@@ -18,9 +18,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     libqt4-test \
     libgtk-3-0
 
-RUN pip3 install \
-    opencv-python \
-    picamera
+RUN pip3 install -r requirements.txt
 
 ENV DISPLAY :0.0
 
