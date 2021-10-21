@@ -34,6 +34,11 @@ docker pull kmchord9/raspios-buster-armhf-lite:20211021opencv-2
 [DockerとOpenCV内のRaspberryPiカメラにアクセスする方法](https://ichi.pro/docker-to-opencvnai-no-raspberrypi-kamera-ni-akusesusuru-hoho-105150967000465 "タイトル")<br>
 [ARM環境のRaspbianイメージをx86上のDockerで動かす](https://qiita.com/hishi/items/61652e2d9755e17630de "タイトル")<br>
 [How to Let Non-Root Users Access the Raspberry Pi Camera](https://www.losant.com/blog/how-to-access-the-raspberry-pi-camera-in-docker "タイトル")<br>
+[ArchlinuxARM Need to Use sudo to Access Camera](https://forums.raspberrypi.com/viewtopic.php?t=247867 "タイトル")<br>
+
+
+
+
 
 
 
