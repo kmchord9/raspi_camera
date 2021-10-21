@@ -14,6 +14,9 @@ sudo echo SUBSYSTEM=="vchiq",MODE="0666" >> /etc/udev/rules.d/99-camera.rules
 xhost +local:
 ```
 
+#### ライブカメラ
+index.htmlのipアドレスをローカルのIPに変更する
+
 ### 起動方法
 
 ```
