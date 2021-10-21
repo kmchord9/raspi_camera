@@ -26,7 +26,7 @@ docker exec -it camera /bin/bash
 dockerイメージは公式のraspiOS（2021-05-07-raspios-buster-armhf-lite.zip）から<br>
 作成したものを使用している。<br>
 
-作成したイメージは下記で得られる
+作成したイメージは下記で得られる<br>
 ```
 docker pull dockerHubにkmchord9/raspios-buster-armhf-lite:20211021opencv-2
 ```
