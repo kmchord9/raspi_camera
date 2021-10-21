@@ -15,4 +15,7 @@ services:
      devices:
         - "/dev/vchiq:/dev/vchiq"
         - "/dev/vcsm:/dev/vcsm"
+        - "/dev/video0:/dev/video0"
+     ports:
+        - "8888:8888"
      tty: true
