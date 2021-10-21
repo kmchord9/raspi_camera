@@ -7,8 +7,12 @@ dockerコンテナ内部でカメラを使用する
 
 ラズパイのローカルにてカメラの有効化する
 
-/etc/udev/rules.d/99-camera.rulesに下記を書き込む<br>
-SUBSYSTEM=="vchiq",MODE="0666"
+```
+#カメラへのアクセスの有効化
+sudo echo SUBSYSTEM=="vchiq",MODE="0666" >> /etc/udev/rules.d/99-camera.rules
+#GUI表示の許可
+xhost +local:
+```
 
 ### 起動方法
 
