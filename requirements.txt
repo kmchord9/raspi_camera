@@ -1,4 +1,4 @@
-asyncio
 tornado
-opencv-python
 picamera
+asyncio
+opencv-python
