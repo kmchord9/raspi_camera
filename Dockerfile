@@ -18,8 +18,11 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     libqt4-test \
     libgtk-3-0
 
+COPY requirements.txt /
 RUN pip3 install -r requirements.txt
 
 ENV DISPLAY :0.0
+
+WORKDIR /app
 
 CMD ["bin/bash"]
