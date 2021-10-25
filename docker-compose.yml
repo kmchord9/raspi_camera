@@ -4,7 +4,6 @@ services:
      container_name: camera
      build:
        context: .
-     network_mode: host
      restart: always
      volumes:
         - /opt/vc:/opt/vc
@@ -14,7 +13,8 @@ services:
         LD_LIBRARY_PATH: /opt/vc/lib
      devices:
         - "/dev/vchiq:/dev/vchiq"
-        - "/dev/vcsm:/dev/vcsm"
+        #- "/dev/vcsm:/dev/vcsm"
+        - "/dev/vcsm-cma:/dev/vcsm-cma"
         - "/dev/video0:/dev/video0"
      ports:
         - "8888:8888"
